@@ -48,7 +48,7 @@ const experience = [
       </p>
       <p className="pt-4 text-green">
         My time at Deloitte gave me insight into the problems faced by Enterprise
-        businesses. I have learnt how to work in a complex enriovment, staging adaptable, and maintaining
+        businesses. I have learnt how to work in a complex environment, staying adaptable, and maintaining
         effective communication. I have worked with a range of customers from Fiancal,
         Education, and Public sectors. My work included but not limited to, application
         development, and system integrations. Technologies include Python, Django, AWS, and Mule4.
@@ -72,9 +72,9 @@ const IndexPage = () => (
   <div className="bg-gray-dark">
     <div className="flex-column">
       <div className="px-8">
-        <div className="h-screen text-center pt-[50vh] ">
-            <p className="text-4xl text-purple">Hi, I'm</p>
-            <h1 className="text-8xl font-bold text-blue">Robert Diao</h1>
+        <div className="h-screen text-center pt-[40vh] ">
+          <p className="text-4xl text-purple">Hi, I'm</p>
+          <h1 className="text-8xl font-bold text-blue">Robert Diao</h1>
         </div>
         <h2 className="text-4xl font-bold text-center text-purple">My Story so far...</h2>
         <div className="mt-8 mb-8">
@@ -95,7 +95,8 @@ const IndexPage = () => (
             <li>Photography</li>
             <li>Homelabs</li>
             <li>Latte Art</li>
-          </ul></div>
+          </ul>
+        </div>
       </div>
     </div>
     <Footer />
