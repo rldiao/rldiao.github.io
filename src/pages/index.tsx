@@ -26,9 +26,9 @@ const experience: CellProps[] = [
 ]
 
 const IndexPage = () => (
-  <main>
-    <h1>Robert Diao</h1>
-    <h2>My Journey</h2>
+  <div className="flex-column">
+    <h1 className="text-8xl font-bold">Robert Diao</h1>
+    <h2 className="text-4xl font-bold">My Journey</h2>
     <div className="experience">
       {experience.map(element => {
         return <Cell
@@ -38,7 +38,7 @@ const IndexPage = () => (
       })}
     </div>
     <Footer></Footer>
-  </main>
+  </div>
 )
 
-export default IndexPage
+export default IndexPage;
