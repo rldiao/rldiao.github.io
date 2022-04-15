@@ -1,11 +1,11 @@
 import * as React from "react"
 
-const Cell = ({title, subtitle, content}: CellProps) => {
+const Cell = ({title, subtitle, children}: CellProps) => {
     return (
-        <div className="row">
-          <div className="text-2xl">{title}</div>
-          <div className="subtitle">{subtitle}</div>
-          <div className="content">{content}</div>
+        <div className="pb-4">
+          <div className="text-2xl font-bold">{title}</div>
+          <div className="font-bold">{subtitle}</div>
+          {children}
         </div>
     )
 }
@@ -13,7 +13,7 @@ const Cell = ({title, subtitle, content}: CellProps) => {
 export type CellProps = {
   title: string;
   subtitle: string;
-  content: string;
+  children?: React.ReactNode;
 }
 
 export default Cell;
