@@ -2,9 +2,9 @@ import * as React from "react"
 
 const Cell = ({title, subtitle, children}: CellProps) => {
     return (
-        <div className="pb-4">
-          <div className="text-2xl font-bold">{title}</div>
-          <div className="font-bold">{subtitle}</div>
+        <div className="mb-4 p-4 border rounded-2xl border-gray">
+          <div className="text-2xl font-bold text-blue">{title}</div>
+          <div className="font-bold text-red">{subtitle}</div>
           {children}
         </div>
     )
